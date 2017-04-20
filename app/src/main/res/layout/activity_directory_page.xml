@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_directory_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#047498"
+    tools:context="com.example.android.finalproject.DirectoryPage">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="climateHero"
+        android:textAlignment="center"
+        android:textSize="64dp"
+        android:textStyle="bold"
+        android:fontFamily="verdana"
+        android:layout_marginTop="1dp"
+        android:textColor="#FFFF"/>
+
+    <Button
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="190dp"
+        android:text="Learn"
+        android:textColor="#FFFF"
+        android:textStyle="bold"
+        android:fontFamily="verdana"
+        android:textSize="17dp"
+        android:background="@drawable/treeicon" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="100dp"
+        android:text="Track"
+        android:fontFamily="verdana"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:background="@drawable/notepad"
+        />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="190dp"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:fontFamily="verdana"
+        android:background="@drawable/call2"
+        android:text="call"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/goal2"
+        android:textColor="#FFFF"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:fontFamily="verdana"
+        android:text="goal set"
+        />
+
+</RelativeLayout>
