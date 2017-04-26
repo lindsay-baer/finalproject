@@ -18,8 +18,7 @@
         android:textSize="35dp"
         android:textColor="#FFFF"
         android:textStyle="bold"
-        android:textAlignment="center"
-        android:font="verdana"/>
+        android:textAlignment="center"/>
 
     <Button
         android:layout_width="350dp"
@@ -35,7 +34,7 @@
         android:layout_marginTop="170dp"
         android:text="deforestation"
         android:textSize="20dp"
-        android:background="#C9ECF8  "/>
+        android:background="#C9ECF8"/>
 
     <Button
         android:layout_width="350dp"

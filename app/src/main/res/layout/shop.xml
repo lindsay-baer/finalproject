@@ -8,8 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="#5DBCDB"
-    tools:context="com.example.android.finalproject.Tracker">
+    android:background="#5DBCDB">
 
     <TextView
         android:layout_width="match_parent"
@@ -18,13 +17,13 @@
         android:textStyle="bold"
         android:fontFamily="Verdana"
         android:textSize="36dp"
-        android:text="Are your light bulbs energy efficient?"/>
+        android:text="Did you go shopping today?"/>
 
     <Button
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
         android:background="@drawable/blueicon"
-        android:text="some of them"
+        android:text="yes, brought my own bag"
         android:textColor="#FFFF"
         android:textStyle="bold"
         android:fontFamily="verdana"
@@ -34,10 +33,10 @@
         />
 
     <Button
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
         android:background="@drawable/blueicon"
-        android:text="all of them"
+        android:text="no"
         android:textColor="#FFFF"
         android:textSize="18dp"
         android:textStyle="bold"
@@ -46,10 +45,10 @@
         />
 
     <Button
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
         android:background="@drawable/blueicon"
-        android:text="one of them"
+        android:text="yes, thrift or used goods"
         android:textColor="#FFFF"
         android:textStyle="bold"
         android:textSize="18dp"
@@ -58,10 +57,10 @@
         />
 
     <Button
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
         android:background="@drawable/blueicon"
-        android:text="none of them"
+        android:text="yes, for new things"
         android:textSize="18dp"
         android:textColor="#FFFF"
         android:textStyle="bold"

@@ -8,8 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="#5DBCDB"
-    tools:context="com.example.android.finalproject.Tracker">
+    android:background="#5DBCDB">
 
     <TextView
         android:layout_width="match_parent"
@@ -18,7 +17,7 @@
         android:textStyle="bold"
         android:fontFamily="Verdana"
         android:textSize="36dp"
-        android:text="Are your light bulbs energy efficient?"/>
+        android:text="Are your appliances energy efficient?"/>
 
     <Button
         android:layout_width="150dp"
