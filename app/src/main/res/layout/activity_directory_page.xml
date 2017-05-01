@@ -35,14 +35,14 @@
         android:background="@drawable/treeicon" />
 
     <Button
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="2500dp"
+        android:layout_height="100dp"
         android:layout_marginTop="100dp"
         android:text="Track"
         android:fontFamily="verdana"
         android:textStyle="bold"
         android:textSize="17dp"
-        android:background="@drawable/notepad"
+        android:background="@drawable/trackbutton"
         />
 
     <Button
