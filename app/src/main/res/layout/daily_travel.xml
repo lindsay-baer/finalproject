@@ -10,64 +10,97 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:background="#5DBCDB">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColor="#FFFF"
-        android:textStyle="bold"
-        android:fontFamily="Verdana"
-        android:textSize="36dp"
-        android:text="How did you get to work/school today?"/>
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true" >
 
-    <Button
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:background="@drawable/blueicon"
-        android:text="public transport"
-        android:textColor="#FFFF"
-        android:textStyle="bold"
-        android:fontFamily="verdana"
-        android:textSize="18dp"
-        android:layout_marginTop="110dp"
-        android:layout_marginLeft="200dp"
-        />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
 
-    <Button
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:background="@drawable/blueicon"
-        android:text="walk or bike"
-        android:textColor="#FFFF"
-        android:textSize="18dp"
-        android:textStyle="bold"
-        android:fontFamily="verdana"
-        android:layout_marginTop="110dp"
-        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFF"
+            android:textStyle="bold"
+            android:fontFamily="Verdana"
+            android:textSize="36dp"
+            android:text="How did you get to work/school today?"
+            android:textAlignment="center"/>
 
-    <Button
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:background="@drawable/blueicon"
-        android:text="car"
-        android:textColor="#FFFF"
-        android:textStyle="bold"
-        android:textSize="18dp"
-        android:fontFamily="verdana"
-        android:layout_marginTop="300dp"
-        />
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/blueicon"
+            android:text="public transport"
+            android:textColor="#FFFF"
+            android:textStyle="bold"
+            android:fontFamily="verdana"
+            android:textSize="18dp"
+            android:layout_marginTop="110dp"
+            android:layout_marginLeft="200dp"
+            />
 
-    <Button
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:background="@drawable/blueicon"
-        android:text="plane"
-        android:textSize="18dp"
-        android:textColor="#FFFF"
-        android:textStyle="bold"
-        android:fontFamily="verdana"
-        android:layout_marginTop="300dp"
-        android:layout_marginLeft="200dp"
-        />
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/blueicon"
+            android:text="walk or bike"
+            android:textColor="#FFFF"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:fontFamily="verdana"
+            android:layout_marginTop="110dp"
+            />
 
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/blueicon"
+            android:text="car"
+            android:textColor="#FFFF"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="verdana"
+            android:layout_marginTop="300dp"
+            />
 
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/blueicon"
+            android:text="plane"
+            android:textSize="18dp"
+            android:textColor="#FFFF"
+            android:textStyle="bold"
+            android:fontFamily="verdana"
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="200dp"
+            />
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="90dp"
+                android:background="@drawable/arrow234"
+                android:text="Select Image"
+                android:textColor="#FFFF"
+                android:textStyle="bold"
+                android:layout_marginTop="480dp"
+                android:layout_marginLeft="75dp"
+                />
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="90dp"
+                android:background="@drawable/arrow234"
+                android:text="Next question"
+                android:textColor="#FFFF"
+                android:textStyle="bold"
+                android:layout_marginTop="560dp"
+                android:layout_marginLeft="75dp"/>
+
+            </RelativeLayout>
+</ScrollView>
 </RelativeLayout>
