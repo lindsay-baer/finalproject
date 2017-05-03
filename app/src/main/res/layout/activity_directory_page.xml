@@ -60,12 +60,12 @@
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_marginTop="300dp"
-        android:background="@drawable/goal2"
+        android:background="@drawable/camera2"
         android:textColor="#FFFF"
         android:textStyle="bold"
         android:textSize="17dp"
         android:fontFamily="verdana"
-        android:text="goal set"
+        android:text="upload image"
         />
 
 </RelativeLayout>
